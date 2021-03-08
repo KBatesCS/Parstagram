@@ -17,6 +17,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    
         // Do any additional setup after loading the view.
     }
     
@@ -26,7 +27,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         post["caption"] = commentField.text
         post["author"] = PFUser.current()!
-        
         
         let imageData = imageView.image!.pngData()
         let file = PFFileObject(data: imageData!)
@@ -63,7 +63,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let image = info[.editedImage] as! UIImage
         
         let size = CGSize(width: 300, height: 300)
-        let scaledImage = image.af.imageScaled(to: size)
+        let scaledImage = image.af.imageAspectScaled(toFill: size)
         
         imageView.image = scaledImage
         

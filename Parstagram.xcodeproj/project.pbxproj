@@ -14,6 +14,7 @@
 		D628437C25EC59E500011A61 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628437B25EC59E500011A61 /* FeedViewController.swift */; };
 		D628438125EC650F00011A61 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628438025EC650F00011A61 /* CameraViewController.swift */; };
 		D628439125EC72FF00011A61 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628439025EC72FF00011A61 /* PostCell.swift */; };
+		D638F49625F0CACD000B9F4F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638F49525F0CACD000B9F4F /* CommentCell.swift */; };
 		D678FC0725EB8F27009A85BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678FC0625EB8F27009A85BF /* AppDelegate.swift */; };
 		D678FC0925EB8F27009A85BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678FC0825EB8F27009A85BF /* SceneDelegate.swift */; };
 		D678FC0E25EB8F27009A85BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D678FC0C25EB8F27009A85BF /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 		D678FC1325EB8F2B009A85BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D678FC1125EB8F2B009A85BF /* LaunchScreen.storyboard */; };
 		D678FC1E25EB8F2C009A85BF /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678FC1D25EB8F2C009A85BF /* ParstagramTests.swift */; };
 		D678FC2925EB8F2C009A85BF /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678FC2825EB8F2C009A85BF /* ParstagramUITests.swift */; };
+		D679E88725F0F3CB002D6F8B /* FontsFree-Net-Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D679E88625F0F3CA002D6F8B /* FontsFree-Net-Billabong.ttf */; };
+		D679E88C25F194E5002D6F8B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679E88B25F194E5002D6F8B /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,7 @@
 		D628437B25EC59E500011A61 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		D628438025EC650F00011A61 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D628439025EC72FF00011A61 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		D638F49525F0CACD000B9F4F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		D678FC0325EB8F27009A85BF /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D678FC0625EB8F27009A85BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D678FC0825EB8F27009A85BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 		D678FC2425EB8F2C009A85BF /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D678FC2825EB8F2C009A85BF /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		D678FC2A25EB8F2C009A85BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D679E88625F0F3CA002D6F8B /* FontsFree-Net-Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FontsFree-Net-Billabong.ttf"; path = "../../../../Downloads/FontsFree-Net-Billabong.ttf"; sourceTree = "<group>"; };
+		D679E88B25F194E5002D6F8B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,7 @@
 		D678FC0525EB8F27009A85BF /* Parstagram */ = {
 			isa = PBXGroup;
 			children = (
+				D679E88625F0F3CA002D6F8B /* FontsFree-Net-Billabong.ttf */,
 				D678FC0625EB8F27009A85BF /* AppDelegate.swift */,
 				D678FC0825EB8F27009A85BF /* SceneDelegate.swift */,
 				D678FC0C25EB8F27009A85BF /* Main.storyboard */,
@@ -155,6 +162,8 @@
 				D628437B25EC59E500011A61 /* FeedViewController.swift */,
 				D628438025EC650F00011A61 /* CameraViewController.swift */,
 				D628439025EC72FF00011A61 /* PostCell.swift */,
+				D638F49525F0CACD000B9F4F /* CommentCell.swift */,
+				D679E88B25F194E5002D6F8B /* ProfileViewController.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -287,6 +296,7 @@
 			files = (
 				D678FC1325EB8F2B009A85BF /* LaunchScreen.storyboard in Resources */,
 				D678FC1025EB8F2B009A85BF /* Assets.xcassets in Resources */,
+				D679E88725F0F3CB002D6F8B /* FontsFree-Net-Billabong.ttf in Resources */,
 				D678FC0E25EB8F27009A85BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +431,8 @@
 				D628437C25EC59E500011A61 /* FeedViewController.swift in Sources */,
 				D678FC0925EB8F27009A85BF /* SceneDelegate.swift in Sources */,
 				D628439125EC72FF00011A61 /* PostCell.swift in Sources */,
+				D679E88C25F194E5002D6F8B /* ProfileViewController.swift in Sources */,
+				D638F49625F0CACD000B9F4F /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
